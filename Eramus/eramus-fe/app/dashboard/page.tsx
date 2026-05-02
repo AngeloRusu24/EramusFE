@@ -150,7 +150,7 @@ export default function DashboardPage() {
         {/* Navigazione */}
         <div className="row">
           <div className="col-md-4 mb-3">
-            <a href="/utenti" className="btn btn-primary w-100">Gestione Utenti</a>
+            <a href="/ruoli" className="btn btn-primary w-100">Gestione Ruoli</a>
           </div>
           <div className="col-md-4 mb-3">
             <a href="/inventario" className="btn btn-primary w-100">Gestione Inventario</a>
