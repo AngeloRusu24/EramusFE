@@ -1,4 +1,4 @@
-# ERAMUS - Frontend (eramus-fe)
+# ERAMUS - Frontend (EramusFE)
 
 Interfaccia web sviluppata con Next.js 14 (App Router) e TypeScript.
 
@@ -18,7 +18,7 @@ Interfaccia web sviluppata con Next.js 14 (App Router) e TypeScript.
 ## Struttura Cartelle
 
 ```
-eramus-fe/
+EramusFE/
 ├── .env.local                    ← URL del backend (non su GitHub)
 ├── declarations.d.ts             ← supporto import CSS in TypeScript
 ├── lib/
@@ -56,7 +56,7 @@ NEXT_PUBLIC_API_URL=http://localhost:3001/api/v1
 
 ```bash
 # 1. Entra nella cartella
-cd eramus-fe
+cd EramusFE
 
 # 2. Installa le dipendenze
 npm install
@@ -72,7 +72,7 @@ Il frontend sarà disponibile su `http://localhost:3000`
 ## Riavvio dopo spegnimento PC
 
 ```bash
-cd ~/GitHub/Eramus/eramus-fe
+cd ~/GitHub/Eramus/EramusFE
 npm run dev
 ```
 
