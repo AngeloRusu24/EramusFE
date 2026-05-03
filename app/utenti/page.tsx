@@ -38,7 +38,13 @@ export default function UtentiPage() {
   });
   const [errori, setErrori] = useState<string[]>([]);
 
-  const admin = isAdmin();
+  const [admin, setAdmin] = useState(false);
+
+  useEffect(() => {
+    setAdmin(isAdmin());
+  }, []);
+
+
   const perPage = 10;
 
   const caricaUtenti = async () => {
